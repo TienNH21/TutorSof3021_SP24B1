@@ -21,6 +21,6 @@ public class LoginController {
         System.out.println("Đã vào hàm login()");
         System.out.println(req.getUsername() + "-" + req.getPassword());
         model.addAttribute("name", req.getUsername());
-        return "login";
+        return "n";
     }
 }
